@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  margin: 0px;
+  background-color: #231f20;
+}
+
+.bio {
+  margin-top: 50px;
+  column-count: 2;
+  column-gap: 100px;
+  vertical-align: middle;
+}
+
+.skills {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.intro-text {
+  padding-top: 50px;
+}
+
+#titletext {
+  text-align: center;
+}
+
+#headshot {
+  text-align: right;
+  margin-left: 500px;
+  border-radius: 1000px;
+}
+
+#caption {
+  align-content: center;
+  text-align: left;
+  width: 50%;
+}
+
+h1, h2, h3, h4 {
+  font-family: Merriweather;
+  color: white;
+}
+
+h1 {
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  color: white;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+p, dl, ul, dt, dd {
+  font-family: Roboto;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #8AA2A9;
+  padding: 3px 15px 3px 15px;
+  border-radius: 100px;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: red;
+}
+
+.header {
+  height: 100%;
+  background-color: #ADF6B1;
+  text-align: center;
+  padding: 200px 0px 200px 0px;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  background-color: #ADF6B1;
+  padding: 10px 0px 10px 0px;
+}
+
+hr {
+  border: #ADF6B1;
+}
+
+#clouds {
+  position: absolute;
+  max-width: 20%;
+  right: 300px;
+  border: 10px;
+  border-radius: 100px 100px 0px 0px;
+  border-color:  #231f20;
+  background-color: #231f20;
+}
+
+#sun {
+  position: absolute;
+  max-width: 24%;
+  left: 250px;
+  border: 10px;
+  border-radius: 100px 100px 0px 0px;
+  border-color:  #231f20;
+  background-color: #231f20;
+}
+
+#section-split {
+  min-width: 100%;
+  max-height: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 600px;
+}
+
+.languages {
+  column-count: 2;
+  column-width: 50%;
+}
+
+#java {
+  float: right;
+  max-width: 10%;
+  padding-right: 300px;
+}
+
+.leadership {
+  column-count: 2;
+  column-width: 50%;
+}
+
+.my-skills {
+  display: flex;
+  columns: 2;
+  column-width: 50%;
+  column-gap: 100px;
+}
+
+#PS-logo {
+  display: block;
+  padding-right: 300px;
+  max-width: 20%;
+}
+
+.experience {
+  margin-top: 100px;
+}
+
+#skills-image {
+  float: right;
+}
+
+#skills-text {
+  float: left;
+  text-align: left;
+  padding: 2rem;
+}
+
+.form-text {
+  float: left;
+  text-align: left;
+}
+
+.form-fields {
+  float: right;
+}
